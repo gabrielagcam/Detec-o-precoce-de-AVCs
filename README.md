@@ -1,1 +1,1 @@
-# Detec-o-precoce-de-AVCs
+# Detecção-precoce-de-AVCs
