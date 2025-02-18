@@ -29,4 +29,8 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 - **Scikit-learn**
 
 - **TensorFlow**
+
+## Próximos Passos:
+
+Implementar outros algoritmos de Machine Learning, como o SVM, XBoost e KNN para comparar os resultados obtidos com os do Random Forest
  
