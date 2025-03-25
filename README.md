@@ -14,7 +14,7 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 
 - **Divisão dos dados:** Separação entre conjunto de treino e teste.
 
-- **Treinamento:** Modelo Random Forest para classificação utilizando o TensorFlow Decision Forests, e também o SVM (Support Vector Machine) utilizando Scikit-Learn
+- **Treinamento:** Modelo Random Forest para classificação utilizando o TensorFlow Decision Forests, e Modelo SVM (Support Vector Machine) utilizando Scikit-Learn
 
 - **Avaliação:** Métricas como acurácia, precisão, recall e F1-score foram utilizadas para medir o desempenho.
 
