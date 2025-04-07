@@ -1,24 +1,28 @@
-# Detecção-precoce-de-AVCs
+# 🧠 Detecção precoce de AVCs 
 
-## Descrição:
+## 📌 Descrição:
 
 Este repositório contém um projeto de Machine Learning para a detecção de AVCs (Acidente Vascular Cerebral) utilizando dados do Kaggle e um modelo baseado em Random Forest.
 
-## Dados:
+## 📊 Dados:
 
 Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) e contêm informações como idade, gênero, histórico de hipertensão, doenças cardíacas, nível de glicose no sangue, entre outras variáveis relevantes.
 
-## Metodologia:
+## 📝 Metodologia:
 
-- **Pré-processamento dos dados:** Tratamento de valores nulos, encoding de variáveis categóricas e balanceamento de classes.
+- [x]**Pré-processamento dos dados:** Tratamento de valores nulos, encoding de variáveis categóricas e balanceamento de classes.
 
-- **Divisão dos dados:** Separação entre conjunto de treino e teste.
+- [x]**Divisão dos dados:** Separação entre conjunto de treino e teste.
 
-- **Treinamento:** Modelo Random Forest para classificação utilizando o TensorFlow Decision Forests, e Modelo SVM (Support Vector Machine) utilizando Scikit-Learn
+- **Implementação de modelos:**
+  - [x] **Random Forest**
+  - [x] **SVM**
+  - [x] **KNN**
+  - [ ] **XGBoost**
 
-- **Avaliação:** Métricas como acurácia, precisão, recall e F1-score foram utilizadas para medir o desempenho.
+- [x] **Análise dos modelos**
 
-## Ferramentas utilizadas:
+## 🛠️ Ferramentas utilizadas:
 
 - **Python** 
 
@@ -31,15 +35,18 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 - **TensorFlow**
 
 
-## Análises de Resultados Preliminares: 
+## 🤖 Descrição dos modelos: 
 
-O Random Forest é um modelo de aprendizagem de máquina, muito utilizado em problemas de classificação, que consiste na criação de árvores de decisão, em que cada uma recebe diferentes subconjuntos de amostras e variáveis, de modo que o resultado final é obtido através da combinação dessas árvores.
+- O **Random Forest** é um modelo de aprendizagem de máquina, muito utilizado em problemas de classificação, que consiste na criação de árvores de decisão, em que cada uma recebe diferentes subconjuntos de amostras e variáveis, de modo que o resultado final é obtido através da combinação dessas árvores.
 
-O SVM (Support Vector Machine) também é um modelo de aprendizagem supervisionada, e tem como objetivo encontrar o hiperplano de separação ideal que maximiza a margem entre as classes. Para encontrar o hiperplano ótimo, ele separa as classes maximizando a margem entre os pontos de diferentes classes mais próximos (vetores de suporte), de modo que os novos pontos são classificados com base em qual lado do hiperplano caem.
+- O **SVM (Support Vector Machine)** também é um modelo de aprendizagem supervisionada, e tem como objetivo encontrar o hiperplano de separação ideal que maximiza a margem entre as classes. Para encontrar o hiperplano ótimo, ele separa as classes maximizando a margem entre os pontos de diferentes classes mais próximos (vetores de suporte), de modo que os novos pontos são classificados com base em qual lado do hiperplano caem.
 
-No desenvolvimento deste projeto, até o presente momento, foram implementados os algoritmos Random Forest e SVM, em que o SVM com utilização de Grid Search apresenta uma melhor acurácia (0,9808, comparada com 0,9652 de acurácia do RF)
+- O **KNN (K-Nearest Neighbors)** é um modelo que, quando precisa fazer uma previsão, calcula a distância (geralmente euclidiana) entre o novo ponto e todos os pontos do conjunto de treino, seleciona os K vizinhos de menor distância e classifica o novo ponto com base na maioria das classes desses vizinhos (voto majoritário).
 
-## Próximos Passos:
+## 🔍 Resultados:
 
-Implementar outros algoritmos de Machine Learning, como o XBoost e KNN para comparar os resultados obtidos com os do Random Forest e SVM.
- 
+| Modelo        | Acurácia |       Precisão      |       f1-score      |        recall       |  
+| ------------- | -------- | classe 0 | classe 1 | classe 0 | classe 1 | classe 0 | classe 1 | 
+| Random Forest |   0.96   |   1.00   |   0.93   |   0.96   |   0.96   |   0.92   |   1.00   |  
+| SVM           |   0.98   |   1.00   |   0.97   |   0.98   |   0.98   |   0.97   |   1.00   |
+| KNN           |   0.95   |   1.00   |   0.90   |   0.94   |   0.95   |   0.89   |   1.00   |
