@@ -45,7 +45,7 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 
 ## 🔍 Resultados:
 
-|  Modelo       | Acurácia |       Precisão      <br> classe 0 | classe 1 |       f1-score      <br> classe 0 |      recall     <br> classe 0 | classe 1 | classe 1 | 
+|  Modelo       | Acurácia |       Precisão      <br>| classe 0 | classe 1 |       f1-score      <br>| classe 0 | classe 1 |      recall     <br>| classe 0 | classe 1 |
 | ------------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | 
 | Random Forest |   0.96   |   1.00   |   0.93   |   0.96   |   0.96   |   0.92   |   1.00   |  
 | SVM           |   0.98   |   1.00   |   0.97   |   0.98   |   0.98   |   0.97   |   1.00   |
