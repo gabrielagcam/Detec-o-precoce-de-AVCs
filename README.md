@@ -50,3 +50,56 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 | Random Forest |   0.96   |   1.00   |   0.93   |   0.96   |   0.96   |   0.92   |   1.00   |  
 | SVM           |   0.98   |   1.00   |   0.97   |   0.98   |   0.98   |   0.97   |   1.00   |
 | KNN           |   0.95   |   1.00   |   0.90   |   0.94   |   0.95   |   0.89   |   1.00   |
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Modelo</th>
+      <th rowspan="2">Acurácia</th>
+      <th colspan="2">Precisão</th>
+      <th colspan="2">Recall</th>
+      <th colspan="2">F1-Score</th>
+    </tr>
+    <tr>
+      <th>Classe 0</th>
+      <th>Classe 1</th>
+      <th>Classe 0</th>
+      <th>Classe 1</th>
+      <th>Classe 0</th>
+      <th>Classe 1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.96</td>
+      <td>1.00</td>
+      <td>0.93</td>
+      <td>0.92</td>
+      <td>1.00</td>
+      <td>0.96</td>
+      <td>0.96</td>
+    </tr>
+    <tr>
+      <td>SVM</td>
+      <td>0.98</td>
+      <td>1.00</td>
+      <td>0.97</td>
+      <td>0.97</td>
+      <td>1.00</td>
+      <td>0.98</td>
+      <td>0.98</td>
+    </tr>
+    <tr>
+      <td>KNN</td>
+      <td>0.95</td>
+      <td>1.00</td>
+      <td>0.90</td>
+      <td>0.89</td>
+      <td>1.00</td>
+      <td>0.94</td>
+      <td>0.95</td>
+    </tr>
+  </tbody>
+</table>
+
