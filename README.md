@@ -10,9 +10,9 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 
 ## 📝 Metodologia:
 
-- [x]**Pré-processamento dos dados:** Tratamento de valores nulos, encoding de variáveis categóricas e balanceamento de classes.
+- [x] **Pré-processamento dos dados:** Tratamento de valores nulos, encoding de variáveis categóricas e balanceamento de classes.
 
-- [x]**Divisão dos dados:** Separação entre conjunto de treino e teste.
+- [x] **Divisão dos dados:** Separação entre conjunto de treino e teste.
 
 - **Implementação de modelos:**
   - [x] **Random Forest**
@@ -44,6 +44,7 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 - O **KNN (K-Nearest Neighbors)** é um modelo que, quando precisa fazer uma previsão, calcula a distância (geralmente euclidiana) entre o novo ponto e todos os pontos do conjunto de treino, seleciona os K vizinhos de menor distância e classifica o novo ponto com base na maioria das classes desses vizinhos (voto majoritário).
 
 ## 🔍 Resultados:
+
 
 | Modelo        | Acurácia |       Precisão      |       f1-score      |        recall       |  
 | ------------- | -------- | classe 0 | classe 1 | classe 0 | classe 1 | classe 0 | classe 1 | 
