@@ -66,13 +66,13 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
   <tbody>
     <tr>
       <td>Random Forest</td>
-      <td>0.96</td>
+      <td>0.99</td>
       <td>1.00</td>
-      <td>0.93</td>
-      <td>0.92</td>
+      <td>0.98</td>
+      <td>0.98</td>
       <td>1.00</td>
-      <td>0.96</td>
-      <td>0.96</td>
+      <td>0.99</td>
+      <td>0.99</td>
     </tr>
     <tr>
       <td>SVM</td>
