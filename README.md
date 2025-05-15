@@ -43,7 +43,7 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 
 - O **KNN (K-Nearest Neighbors)** é um modelo que, quando precisa fazer uma previsão, calcula a distância (geralmente euclidiana) entre o novo ponto e todos os pontos do conjunto de treino, seleciona os K vizinhos de menor distância e classifica o novo ponto com base na maioria das classes desses vizinhos (voto majoritário).
 
-- O **XGBOOST (Extreme Gradient Boosting)** é um modelo baseado em árvores de decisão, no qual múltiplas árvores são combinadas de forma sequencial. A cada etapa, uma nova árvore é adicionada ao conjunto com o objetivo de corrigir os erros cometidos pelas anteriores. O modelo final é uma combinação ponderada de todas essas árvores, resultando em uma predição mais precisa e robusta.
+- O **XGBoost (Extreme Gradient Boosting)** é um modelo baseado em árvores de decisão, no qual múltiplas árvores são combinadas de forma sequencial. A cada etapa, uma nova árvore é adicionada ao conjunto com o objetivo de corrigir os erros cometidos pelas anteriores. O modelo final é uma combinação ponderada de todas essas árvores, resultando em uma predição mais precisa e robusta.
 
 ## 🔍 Resultados:
 
@@ -109,3 +109,38 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
   </tbody>
 </table>
 
+## 🎯 Comparação das acurácias com e sem seleção de melhores features: 
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Modelo</th>
+      <th rowspan="2">Sem SelectKBest</th>
+      <th colspan="2">Com SelectKBest</th>
+    </tr>
+    <tr>
+      <th>Melhor K</th>
+      <th>Menor valor aceitável de K</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Random Forest</td>
+      <td>0.9884</td>
+      <td>k = 12: 0.9889</td>
+      <td>k = 4: 0.9694</td>
+    </tr>
+    <tr>
+      <td>KNN</td>
+      <td>0.9329</td>
+      <td>k = 4: 0.9419</td>
+      <td>k = 4: 0.9419</td>
+    </tr>
+    <tr>
+      <td>XGBoost</td>
+      <td>0.9578</td>
+      <td>k = 19: 0.9372</td>
+      <td>k = 4: 0.9419</td>
+    </tr>
+  </tbody>
+</table>
