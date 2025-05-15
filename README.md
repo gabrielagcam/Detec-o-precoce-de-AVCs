@@ -139,8 +139,8 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
     <tr>
       <td>XGBoost</td>
       <td>0.9578</td>
-      <td>k = 19: 0.9372</td>
-      <td>k = 4: 0.9419</td>
+      <td>k = 19: 0.9578</td>
+      <td>k = 4: 0.9372</td>
     </tr>
   </tbody>
 </table>
