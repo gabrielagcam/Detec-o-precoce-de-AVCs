@@ -131,6 +131,12 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
       <td>k = 4: 0.9694</td>
     </tr>
     <tr>
+      <td>SVM</td>
+      <td>0.9826</td>
+      <td>k = 8: 0.9847</td>
+      <td>k = 4: 0.9630</td>
+    </tr>
+    <tr>
       <td>KNN</td>
       <td>0.9329</td>
       <td>k = 4: 0.9419</td>
