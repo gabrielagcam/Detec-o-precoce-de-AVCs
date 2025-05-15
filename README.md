@@ -18,7 +18,7 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
   - [x] **Random Forest**
   - [x] **SVM**
   - [x] **KNN**
-  - [ ] **XGBoost**
+  - [x] **XGBoost**
 
 - [x] **Análise dos modelos**
 
@@ -42,6 +42,8 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
 - O **SVM (Support Vector Machine)** também é um modelo de aprendizagem supervisionada, e tem como objetivo encontrar o hiperplano de separação ideal que maximiza a margem entre as classes. Para encontrar o hiperplano ótimo, ele separa as classes maximizando a margem entre os pontos de diferentes classes mais próximos (vetores de suporte), de modo que os novos pontos são classificados com base em qual lado do hiperplano caem.
 
 - O **KNN (K-Nearest Neighbors)** é um modelo que, quando precisa fazer uma previsão, calcula a distância (geralmente euclidiana) entre o novo ponto e todos os pontos do conjunto de treino, seleciona os K vizinhos de menor distância e classifica o novo ponto com base na maioria das classes desses vizinhos (voto majoritário).
+
+- O **XGBOOST (Extreme Gradient Boosting)** é um modelo baseado em árvores de decisão, no qual múltiplas árvores são combinadas de forma sequencial. A cada etapa, uma nova árvore é adicionada ao conjunto com o objetivo de corrigir os erros cometidos pelas anteriores. O modelo final é uma combinação ponderada de todas essas árvores, resultando em uma predição mais precisa e robusta.
 
 ## 🔍 Resultados:
 
@@ -93,6 +95,16 @@ Os dados utilizados foram obtidos no [Kaggle](https://www.kaggle.com/datasets/fe
       <td>1.00</td>
       <td>0.94</td>
       <td>0.95</td>
+    </tr>
+    <tr>
+      <td>XGBoost</td>
+      <td>0.97</td>
+      <td>1.00</td>
+      <td>0.95</td>
+      <td>0.95</td>
+      <td>1.00</td>
+      <td>0.97</td>
+      <td>0.98</td>
     </tr>
   </tbody>
 </table>
